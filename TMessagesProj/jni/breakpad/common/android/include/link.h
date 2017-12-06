@@ -43,7 +43,7 @@
 extern "C" {
 #endif  // __cplusplus
 
-struct r_debug {
+/*struct r_debug {
   int              r_version;
   struct link_map* r_map;
   ElfW(Addr)       r_brk;
@@ -61,7 +61,7 @@ struct link_map {
   struct link_map* l_next;
   struct link_map* l_prev;
 };
-
+*/
 #ifdef __cplusplus
 }  // extern "C"
 #endif  // __cplusplus
